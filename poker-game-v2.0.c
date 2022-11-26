@@ -242,7 +242,8 @@ int main() {
 					printf("\n%s of %s\n", max[l], min[m]);
 					printf("\n%s\n", play[7]); // Straight com seq de 5 cartas com 4 naipes iguais + 1 naipe igual.
 				}
-				if(a != c || a != e || a != g || a != l || c != e || c != g || c != l || e != g || e != l || g != l) {
+				if(a != c || a != e || a != g || a != l || c != e || c != g || c != l || e != g || e != l || g != l 
+				   || b != d || b != d && f != h || b != d && f == h || b != f) {
 					max[i=a] = max[a];
 					max[i=c] = max[c];
 					min[i=b] = min[b];
